@@ -18,18 +18,18 @@ To set it locally to your specific application (not to the entire site)
 ####Add a .json extension:
 In the Properties page of your specific application:
 
-*Open the MIME Types panel
-*Click the Actions link
-*A pop up will open, set:
-    *File name extension to .json
-    *MIME type to application/json
+* Open the MIME Types panel
+* Click the Actions link
+* A pop up will open, set:
+    * File name extension to .json
+    * MIME type to application/json
 
 ####Add a json handler:
 In the Properties page of your specific application:
 
-*Open Handler Mappings panel
-*Click Add Script Map link
-*A pop up will open, set:
-    *Request path: *.json
-    *Executable: [Browse to asp.dll, that may be located at C:\Windows\System32\inetsrv]
-    *Name: JSON
+* Open Handler Mappings panel
+* Click Add Script Map link
+* A pop up will open, set:
+    * Request path: *.json
+    * Executable: [Browse to asp.dll, that may be located at C:\Windows\System32\inetsrv]
+    * Name: JSON
