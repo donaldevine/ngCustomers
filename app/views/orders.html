@@ -1,0 +1,15 @@
+<h3>Orders</h3>
+
+CustomerID: {{ customerId }}
+<br />
+
+<table>
+        <tr ng-repeat="order in orders | filter:{ custId: customerId }">
+            <td>{{ order.name  }}</a></td>
+            <td>{{ order.cost | currency }}</td>
+        </tr>
+</table>
+
+<br />
+
+<a href="#/">Customers</a>
